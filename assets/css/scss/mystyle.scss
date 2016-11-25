@@ -51,8 +51,8 @@
 
     .site-heading {
       padding: 245px 0 50px;
-      .top-info{
-        color:#fff;
+      .top-info {
+        color: #fff;
         margin-left: 20px;
       }
     }
@@ -83,9 +83,7 @@ footer {
   color: $brand-danger;
 }
 
-h4.arrow-start {
-  text-transform: uppercase;
-}
+
 
 h4.arrow-start:before {
   content: '>';
@@ -104,7 +102,8 @@ h4.arrow-start:before {
   text-transform: uppercase;
   font-size: 18px;
 }
-.btn-new:after{
+
+.btn-new:after {
   content: '>';
   color: $brand-danger;
   font-size: 20px;
@@ -114,14 +113,122 @@ h4.arrow-start:before {
 .search-form {
   margin-top: 90px;
 }
-.btn{
+
+.btn {
 
 }
-.btn-search{
+
+.btn-search {
   background: url('../../../assets/img/search.png') no-repeat $brand-danger;
   background-size: 35px 35px;
   padding-left: 40px;
   padding-right: 40px;
   text-transform: uppercase;
 }
+
+.how-to-use {
+  h1, h2 {
+    font-weight: 700;
+  }
+  p{
+    font-size: 18px;
+  }
+  font-weight: 700;
+}
+
+.full-width {
+  width:100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0 0 4px 0 ;
+
+}
+.full-width-title{
+  background: $brand-primary;
+  color: #fff;
+  text-transform: uppercase;
+}
+.cars{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 0px;
+  margin-bottom: 0;
+}
+
+.auction {
+  background: $brand-danger;
+}
+.retail{
+  background: $brand-primary;
+}
+.details{
+  shape-outside: polygon(0 0, 100% 50%, 100% 50%, 0 100%);
+  background: $brand-primary;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 4px 0;
+  position:relative;
+  margin-bottom: 20px;
+}
+
+
+.details:before{
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 17px solid $brand-danger;
+  border-right: 17px solid transparent;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.btn-view-more{
+  width: 100%;
+  border: 1px dashed $brand-primary;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.full-width-content{
+  background: $brand-grey;
+  margin-top: -40px;
+}
+.form-search{
+  width: 80%;
+  float: left;
+  margin-right: 20px;
+}
+.date{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 0px;
+  margin-bottom: 0;
+}
+.model{
+  text-transform: uppercase;
+  color: #444351;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 0px;
+}
+
+.mt20{
+  margin-top: 20px;
+}
+.mt30{
+  margin-top: 30px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+
 

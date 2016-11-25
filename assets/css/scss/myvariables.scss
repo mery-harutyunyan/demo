@@ -1,5 +1,6 @@
 $brand-primary: #2b2d42 !default;
 $brand-danger: #ef233c !default;
+$brand-grey :#edf2f5 !default;
 $navbar-default-link-color: $brand-primary !default;
 $navbar-default-link-hover-color: $brand-danger !default;
 $navbar-default-toggle-icon-bar-bg: $brand-danger !default;
@@ -7,3 +8,4 @@ $navbar-default-brand-color: #FFF !default;
 $navbar-default-brand-hover-color: darken($navbar-default-brand-color, 10%) !default;
 $navbar-default-brand-hover-bg: transparent !default;
 $border-radius-base:        3px !default;
+$state-danger-text :$brand-danger !default;
