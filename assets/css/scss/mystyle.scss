@@ -1,0 +1,127 @@
+@media (min-width: $grid-float-breakpoint) {
+  .navbar-default {
+
+    .navbar-nav {
+      > li > a:before {
+        content: ' / ';
+        color: $brand-danger;
+        display: inline-block;
+        margin-left: -12px;
+        margin-right: 9px;
+      }
+      > li:first-child > a:before, li:nth-child(2) > a:before {
+        content: '';
+      }
+      > li > a {
+        padding: 20px 10px;
+        font-weight: 700;
+        letter-spacing: -1.5px;
+        text-transform: uppercase;
+        font-size: 11px;
+
+      }
+
+      > li:first-child > a {
+        padding: 17px 10px;
+      }
+
+    }
+
+    .navbar-header {
+      margin-right: 30px;
+      margin-left: -32px;
+      width: 288px;
+      height: 60px;
+      -ms-transform: skewX(150deg); /* IE 9 */
+      -webkit-transform: skewX(150deg); /* Safari */
+      transform: skewX(150deg);
+      background: $brand-primary;
+    }
+  }
+
+  .intro-header {
+    margin-top: -9px;
+    background: center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+    border-bottom: 3px solid $brand-danger;
+
+    .site-heading {
+      padding: 245px 0 50px;
+      .top-info{
+        color:#fff;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+
+  @media (min-width: $grid-float-breakpoint) {
+    -ms-transform: skewX(210deg);
+    -webkit-transform: skewX(210deg);
+    transform: skewX(210deg);
+
+    .navbar > .container &,
+    .navbar > .container-fluid & {
+      text-transform: uppercase;
+      font-size: 28px;
+      padding: 22px 67px;
+    }
+  }
+}
+
+footer {
+  padding: 50px 0 65px;
+}
+
+.fa {
+  color: $brand-danger;
+}
+
+h4.arrow-start {
+  text-transform: uppercase;
+}
+
+h4.arrow-start:before {
+  content: '>';
+  color: $brand-danger;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.btn-new {
+  border: none;
+  background: $brand-primary;
+  padding: 7px 20px;
+  margin: 20px 0;
+  border-left: 7px solid $brand-danger;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.btn-new:after{
+  content: '>';
+  color: $brand-danger;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.search-form {
+  margin-top: 90px;
+}
+.btn{
+
+}
+.btn-search{
+  background: url('../../../assets/img/search.png') no-repeat $brand-danger;
+  background-size: 35px 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+}
+
