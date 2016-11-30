@@ -51,7 +51,7 @@
                     <a href="#">How to use auctions</a>
                 </li>
                 <li>
-                    <a href="#">Guverment vehicles</a>
+                    <a href="#">Government vehicles</a>
                 </li>
                 <li>
                     <a href="#">Faq</a>
@@ -89,9 +89,9 @@
                         </div>
                         <div class="panel-body">
                             <p>This also researches savlage auctions!</p>
-                            <form>
-                                <div class="form-search">
-                                    <input type="text" class="form-control" placeholder="ENTER VIP">
+                            <form class="form-inline">
+                                <div class="form-group col-md-10">
+                                    <input type="text" class="full-width-input form-control" placeholder="ENTER VIP">
                                 </div>
                                 <button type="submit" class="btn btn-danger btn-search">Find</button>
                             </form>
@@ -146,7 +146,6 @@
     </div>
 </div>
 <div class="container">
-
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1  text-center">
         <div class="row">
             <div class="col-md-4">
@@ -182,7 +181,6 @@
         </div>
         <a class="btn btn-view-more text-uppercase">View more auctions vs dealer prices</a>
     </div>
-
 </div>
 <div class="full-width text-center full-width-title">
     <div class="container-fluid">
@@ -191,9 +189,68 @@
 </div>
 <div class="full-width full-width-content">
     <div class="container-fluid">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 mb30">
             <h2 class="text-center text-primary">How much have they been selling for?</h2>
             <h4 class="text-center text-primary">Select a make and model to lookup recent auction prices.</h4>
+            <form class="mt30">
+                <div class="col-lg-12">
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="text-primary">Select multiple make/model</label>
+                            <select class="select form-control">
+                                <option>MAKE</option>
+                                <option>MAKE 1</option>
+                                <option>MAKE 2</option>
+                                <option>MAKE 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="select form-control">
+                                <option>MODEL</option>
+                                <option>MODEL 1</option>
+                                <option>MODEL 2</option>
+                                <option>MODEL 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger pull-right text-uppercase">Add to search
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <textarea class="textarea" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="form-group">
+                            <label class="text-primary">Select multiple make/model</label>
+                            <div class="radio">
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+
+                                <label for="optionsRadios1" class="text-uppercase">
+                                    All cars <br/>
+                                    <i class="text-muted text-capitalize ml30">Text, text, text</i>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+
+                                <label for="optionsRadios2" class="text-uppercase">
+                                    Goverment
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pull-right">
+                    <button class="btn btn-danger btn-search pull-right">Find most resent auction prices</button>
+                    <button class="parallelogram text-uppercase pull-right mr20">144 available</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -203,58 +260,178 @@
         <h3>Find upcoming cars and goverment cars <span class="text-danger">on auction</span></h3>
     </div>
 </div>
-<div class="container">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
-        <div class="row mb20">
-            <div class="col-md-3">
-                <p class="date auction">Up for Auction: 10.10.2016</p>
-                <img style="width: 100%" src="assets/img/47670011O.jpg">
-                <p class="model">
-                    2008 Honda crv <br/>
-                    Sport 5d s/wagon
-                </p>
+<div class="container mb80">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="text-primary">Filter by:</label>
+                <select class="select form-control">
+                    <option>MAKE</option>
+                    <option>MAKE 1</option>
+                    <option>MAKE 2</option>
+                    <option>MAKE 3</option>
+                </select>
             </div>
-            <div class="col-md-3">
-                <p class="date auction">Up for Auction: 10.10.2016</p>
-                <img style="width: 100%" src="assets/img/48990001O.jpg">
-                <p class="model">
-                    2008 Honda crv <br/>
-                    Sport 5d s/wagon
-                </p>
+            <div class="form-group">
+                <label class="sr-only">Filter by:</label>
+                <select class="select form-control">
+                    <option>MODEL</option>
+                    <option>MODEL 1</option>
+                    <option>MODEL 2</option>
+                    <option>MODEL 3</option>
+                </select>
             </div>
 
-            <div class="col-md-3">
-                <p class="date auction">Up for Auction: 10.10.2016</p>
-                <img style="width: 100%" src="assets/img/47670011O.jpg">
-                <p class="model">
-                    2008 Honda crv <br/>
-                    Sport 5d s/wagon
-                </p>
+            <div class="row mt20 text-center">
+                <div class="col-md-3">
+                    <p class="date auction">Up for Auction: 10.10.2016</p>
+                    <img style="width: 100%" src="assets/img/47670011O.jpg">
+                    <p class="model">
+                        2008 Honda crv <br/>
+                        Sport 5d s/wagon
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="date auction">Up for Auction: 10.10.2016</p>
+                    <img style="width: 100%" src="assets/img/48990001O.jpg">
+                    <p class="model">
+                        2008 Honda crv <br/>
+                        Sport 5d s/wagon
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <p class="date auction">Up for Auction: 10.10.2016</p>
+                    <img style="width: 100%" src="assets/img/47670011O.jpg">
+                    <p class="model">
+                        2008 Honda crv <br/>
+                        Sport 5d s/wagon
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="date auction">Up for Auction: 10.10.2016</p>
+                    <img style="width: 100%" src="assets/img/48990001O.jpg">
+                    <p class="model">
+                        2008 Honda crv <br/>
+                        Sport 5d s/wagon
+                    </p>
+                </div>
             </div>
-            <div class="col-md-3">
-                <p class="date auction">Up for Auction: 10.10.2016</p>
-                <img style="width: 100%" src="assets/img/48990001O.jpg">
-                <p class="model">
-                    2008 Honda crv <br/>
-                    Sport 5d s/wagon
-                </p>
-            </div>
-        </div>
-        <a class="btn btn-view-more text-uppercase">View more cars on auction</a>
+            <button type="submit" class="btn btn-view-more text-uppercase">View more cars on auction</button>
+        </form>
     </div>
 
 </div>
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="full-width full-width-content bg-car">
+    <div class="container-fluid">
+        <div class="container-car">
+            <img src="assets/img/ready-to-save-money.png" class="ready-to-save-money"/>
+            <div class="">
+                <div class="save-money-h3">Ready to save money?!</div>
+                <p>Find out how the 4 steps to buying a car at auction</p>
+                <div class="col-md-7 text-center steps">
+                    <div class="col-md-2">
+                        <h1>1</h1>
+                        <p>inspect</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h1>2</h1>
+                        <p>register</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h1>3</h1>
+                        <p>bid & buy</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h1>4</h1>
+                        <p>warranty</p>
+                    </div>
+                </div>
+
+                <button class="btn btn-danger text-uppercase btn-irregular-shape"> View a quick guide to saving at
+                    auctions
+                </button>
+                <div class="save-money-h3">Government cars on auctions</div>
+
+                <p>Find out where they come from and why car dealers prefer them</p>
+                <div class="col-md-7 text-center steps mt30">
+                    <div class="col-md-3">
+                        <img src="assets/img/car-wheel.png">
+                        <p>Reliability</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/car-wheel.png">
+                        <p>Honesty</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/car-wheel.png">
+                        <p>Proper service</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/car-wheel.png">
+                        <p>Honesty</p>
+                    </div>
+                </div>
+
+                <button class="btn btn-danger text-uppercase btn-parallelogram">View the full gov car guide ></button>
+                <button class="btn btn-danger text-uppercase btn-irregular-shape"> Upcoming gov cars for auction</button>
 
             </div>
         </div>
     </div>
-</footer>
+</div>
+
+
+<div class="full-width full-width-content bg-footer">
+    <div class="container-fluid">
+        <div class="col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1 mb30 mt30">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-uppercase text-danger">Demo html</h3>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet, eum possit
+                        denique accusata ut, ne cum ipsum possit.
+                        His cu labores scripserit.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-uppercase text-danger">Links</h3>
+                    <ul class="list-inline">
+                        <li><a class="text-white" href="#">Lorem ipsum</a></li>
+                        <li><a class="text-white" href="#">Lorem ipsum</a></li>
+                        <li><a class="text-white" href="#">Lorem ipsum</a></li>
+                    </ul>
+                    <ul class="list-inline  text-white">
+                        <li><a class="text-white" href="#">Lorem ipsum</a></li>
+                        <li><a class="text-white" href="#">Lorem ipsum</a></li>
+                        <li><a class="text-white" href="#">Lorem ipsum</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-info">
+                <div class="col-md-4 col-md-offset-1">
+                    <img class="footer-img" src="assets/img/phone-call.png"/>
+                    <p class="text-danger">+3333 777 555 555</p>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    <img class="footer-img" src="assets/img/envelope.png"/>
+                    <p class="text-danger">email@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="row mt30">
+                <div class="col-md-6 text-left">
+                    <p class="text-white">@ all right reserved, 2016</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p class="text-white">Made By: Mery Harutyunyan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
