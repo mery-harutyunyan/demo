@@ -92,7 +92,7 @@
 }
 
 .full-width-input {
-  width: 100%;
+  width: 100% !important;
 }
 
 footer {
@@ -333,7 +333,8 @@ input[type=radio]:checked + label:before {
 
 input[type="radio"]:checked + label {
   background-color: $brand-primary;
-  padding: 5px 20px;
+  //padding: 5px 95px 5px 20px;
+  width: 100%;
   border-radius: $border-radius-base;
   color: #FFFFFF;
 }
@@ -375,7 +376,6 @@ input[type="radio"]:checked + label {
     @media (max-width: $grid-float-breakpoint-max) {
       text-align: center;
     }
-
   }
 }
 

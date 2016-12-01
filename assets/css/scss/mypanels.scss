@@ -20,5 +20,9 @@
       color: $brand-primary;
       font-weight: 700;
     }
+
+    @media (max-width: $grid-float-breakpoint-max) {
+      text-align: center;
+    }
   }
 }

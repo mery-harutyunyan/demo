@@ -5874,7 +5874,7 @@ button.close {
     padding: 22px 50px; } }
 
 .full-width-input {
-  width: 100%; }
+  width: 100% !important; }
 
 footer {
   padding: 50px 0 65px; }
@@ -6070,7 +6070,7 @@ input[type=radio]:checked + label:before {
 
 input[type="radio"]:checked + label {
   background-color: #2b2d42;
-  padding: 5px 20px;
+  width: 100%;
   border-radius: 8px;
   color: #FFFFFF; }
 
@@ -6273,6 +6273,9 @@ input[type="radio"]:checked + label {
       text-transform: uppercase;
       color: #2b2d42;
       font-weight: 700; }
+    @media (max-width: 767px) {
+      .panel .panel-body {
+        text-align: center; } }
 
 .form-control {
   border-radius: 2px; }
