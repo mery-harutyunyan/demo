@@ -6104,6 +6104,9 @@ input[type="radio"]:checked + label {
 .bg-car .container-fluid {
   padding-right: 0;
   padding-left: 0; }
+  @media (max-width: 767px) {
+    .bg-car .container-fluid {
+      text-align: center; } }
 
 .container-car {
   margin-top: -20px; }
@@ -6120,7 +6123,10 @@ input[type="radio"]:checked + label {
     margin-right: 20px; } }
 @media (max-width: 767px) {
   .ready-to-save-money {
-    width: 100%; } }
+    width: 100%; }
+
+  .btn {
+    font-size: 11px; } }
 .save-money-h3 {
   font-size: 24px;
   background: #2b2d42;
@@ -6181,6 +6187,11 @@ input[type="radio"]:checked + label {
   padding: 10px;
   margin-right: 20px;
   margin-top: -20px; }
+  @media (max-width: 767px) {
+    .btn-parallelogram {
+      margin-top: 0;
+      margin-bottom: 10px;
+      padding: 12px; } }
 
 .btn-parallelogram:before {
   content: "";
