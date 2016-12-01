@@ -116,7 +116,10 @@ h4.arrow-start:before {
   padding: 7px 20px;
   margin: 20px 0;
   border-left: 7px solid $brand-danger;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
   border-radius: 2px;
+  -khtml-border-radius: 2px;
   text-transform: uppercase;
   font-size: 18px;
 }
@@ -130,10 +133,6 @@ h4.arrow-start:before {
 
 .search-form {
   margin-top: 90px;
-}
-
-.btn {
-
 }
 
 .btn-search {
@@ -159,8 +158,6 @@ h4.arrow-start:before {
   width: 100%;
   margin-top: 40px;
   margin-bottom: 40px;
-  //padding: 0 0 4px 0;
-
 }
 
 .full-width-title {
@@ -316,7 +313,10 @@ input[type=radio] + label:before {
   vertical-align: middle;
   margin-right: 12px;
   background-color: #fff;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
   border-radius: 9px;
+  -khtml-border-radius: 9px;
   border: 2px solid grey;
 }
 
@@ -337,9 +337,11 @@ input[type=radio]:checked + label:before {
 
 input[type="radio"]:checked + label {
   background-color: $brand-primary;
-  //padding: 5px 95px 5px 20px;
   width: 100%;
+  -moz-border-radius: $border-radius-base;
+  -webkit-border-radius: $border-radius-base;
   border-radius: $border-radius-base;
+  -khtml-border-radius: $border-radius-base;
   color: #FFFFFF;
 }
 
@@ -474,7 +476,10 @@ input[type="radio"]:checked + label {
   color: #FFFFFF;
   border: none;
   position: relative;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
+  -khtml-border-radius: 0;
   padding: 10px;
   margin-right: 20px;
   margin-top: -20px;
