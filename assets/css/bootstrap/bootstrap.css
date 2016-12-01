@@ -6027,16 +6027,12 @@ h4.arrow-start:before {
 
 .select {
   width: 100%;
-  padding: 8px 10px;
   color: grey;
   border-color: grey;
   background: #fff url("../../../assets/img/arrow.png") no-repeat 90% 50%;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
-  @media screen {
-    .select {
-      padding: 5px 160px 5px 8px; } }
 
 input[type=radio] {
   display: none; }
